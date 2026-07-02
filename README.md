@@ -1,17 +1,43 @@
-# expense_tracker
+# Flutter Expense Tracker App
 
-A new Flutter project.
+A production-quality Flutter expense tracker built with Material 3, featuring a dashboard, transaction management, local persistence, search, and filters.
+
+## Features
+
+- Material 3 dashboard with total balance, income, and expense cards
+- Add, edit, and delete transactions
+- Swipe-to-delete with confirmation and undo
+- Hive local storage for offline persistence
+- Real-time search by title or category
+- Income / Expense filter chips
+- Category icons and formatted currency/date display
+
+## Tech Stack
+
+- Flutter
+- Material 3
+- Hive
+- intl
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+```bash
+flutter pub get
+flutter run
+```
 
-A few resources to get you started if this is your first Flutter project:
+## Project Structure
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+```
+lib/
+├── main.dart
+├── models/
+├── screens/
+├── services/
+├── utils/
+└── widgets/
+```
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## License
+
+This project is open source and available for portfolio use.
